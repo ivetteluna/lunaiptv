@@ -3,6 +3,8 @@ name: Build Visor Camaras UNV Android TV APK
 on:
   push:
     branches: [ "visor-camaras-tv" ]
+  pull_request:
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
